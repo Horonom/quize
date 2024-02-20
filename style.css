@@ -1,1 +1,79 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+}
+.imge{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+h1{
+   text-align: center;
+}
+.icon{
+    width: 25px;
+    height: auto;
+    
+
+}
+.button{
+    display: flex;
+    position: absolute;
+    bottom: 460px;
+    right: 1375px;
+    border: none;
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 8px;
+    transition: 0.5s;
+
+}
+.button:hover{
+    transform: scale(1.2);
+}
+
+.header-class{
+    border-bottom: 2px solid black;
+    background-color: bisque;
+    height: 55px;
+    border-radius: 15px;
+
+}
+
+.nav-a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 6px;
+    transition: 0.5s;
+
+    
+
+    
+}
+.nav-a:hover{
+    transform: scale(1.5px);
+    margin: 12px;
+    box-shadow: 10px 5px 10px rgb(157, 133, 101);
+}
+.nav--a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+.margin-div{
+    display: inline-block;
+    float: right;
+    
+}
+.quize{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+   
 
